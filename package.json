@@ -1,0 +1,41 @@
+{
+  "name": "quebble",
+  "author": "Lando",
+  "version": "1.7.0",
+  "keywords": [
+    "pebble-app",
+    "game",
+    "territory-capture"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Quebble",
+    "uuid": "00d6400a-2f2c-4096-95f3-4db1cdc20f8b",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "DUMMY"
+    ],
+    "resources": {
+      "media": [
+        {"type":"bitmap","name":"IMAGE_MENU_ICON","file":"images/menu_icon.png","menuIcon":true},
+        {"type":"raw","name":"AUDIO_MUSIC","file":"audio/music.pcm"},
+        {"type":"raw","name":"AUDIO_UI","file":"audio/ui.pcm"},
+        {"type":"raw","name":"AUDIO_TICK","file":"audio/tick.pcm"},
+        {"type":"raw","name":"AUDIO_START","file":"audio/start.pcm"},
+        {"type":"raw","name":"AUDIO_CLAIM","file":"audio/claim.pcm"},
+        {"type":"raw","name":"AUDIO_HIT","file":"audio/hit.pcm"},
+        {"type":"raw","name":"AUDIO_CLEAR","file":"audio/clear.pcm"},
+        {"type":"raw","name":"AUDIO_OVER","file":"audio/over.pcm"},
+        {"type":"raw","name":"AUDIO_CREDITS","file":"audio/credits.txt"}
+      ]
+    }
+  }
+}

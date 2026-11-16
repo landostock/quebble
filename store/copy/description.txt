@@ -1,0 +1,11 @@
+Draw a line. Close it. Claim the field.
+
+Quebble is a colourful territory-capture arcade game built for Pebble Time 2. Fence in a restless bundle of neon lines while sparks patrol the edges. Your unfinished line is vulnerable, so pick your moment and keep moving.
+
+Swipe to steer directly across the screen, or play entirely with the buttons. Touch is recommended for the clearest directional control. Choose Easy, Standard or Expert, use slow drawing for extra points, and build a separate best score in each mode.
+
+Pixel-built titles, bright arcade graphics, chiptune music and short haptic cues give each round its own rhythm. Music, effects, vibration and app volume are adjustable in Sound.
+
+Runs offline. No ads, accounts or analytics. Best scores and preferences stay on the watch.
+
+For Pebble Time 2 (emery) only. The backlight stays on during play and results, which increases battery use. Audio also uses additional battery.

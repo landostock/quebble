@@ -1,0 +1,1 @@
+Removes all in-game directional arrows. Replaces the guide with three concise, neatly aligned pages and highlights touch as the recommended control method. Old interior lines now use a cool cobalt blue. Adds a custom launcher icon. Gameplay and steering rules are unchanged from 1.6.

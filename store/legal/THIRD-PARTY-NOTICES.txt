@@ -1,0 +1,22 @@
+Quebble 1.7.0 - Third-party notices
+
+MUSIC
+Title Screen by Juhani Junkala / SubspaceAudio, from Retro Game Music Pack / 5 Chiptunes (Action).
+https://opengameart.org/content/5-chiptunes-action
+CC0 1.0. Adapted for the watch speaker. Source and conversion details are in audio-sources.md.
+
+SOUND EFFECTS
+Digital SFX Set by Kenney Vleugels / Kenney.nl.
+https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc
+CC0 1.0. Adapted excerpts. Attribution does not imply endorsement.
+
+PEBBLE SDK JAVASCRIPT BRIDGE
+Copyright 2024 Google LLC.
+Licensed under the Apache License, Version 2.0.
+http://www.apache.org/licenses/LICENSE-2.0
+The included SDK bridge aliases Pebble event handlers and logs uncaught JavaScript errors locally. Its copyright and licence notice remain in the PBW JavaScript. See Apache-2.0.txt.
+
+PROJECT ARTWORK
+The launcher icon, store icons and separate wordmarks extend Quebble's original code-native pixel glyphs. The banner is AI-assisted original artwork created for this release using the developer's own supplied artwork as style references. It is a marketing illustration, not a gameplay screenshot. No reference-game sprites, logos, screenshots or music are included.
+
+No new open-source licence is granted for the Quebble application by this notice. Third-party components retain the licences stated above.

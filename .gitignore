@@ -1,0 +1,26 @@
+# SDK output and local state
+/build/
+/publish/
+.lock-waf_*
+.DS_Store
+__pycache__/
+*.py[cod]
+node_modules/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+core
+core.*
+
+# Supplied references and example projects are not part of Quebble's source.
+/example_pebble_app/
+/*.pdf
+
+# Local review recordings and obsolete artwork exports
+/docs/verification/*.mp4
+/docs/verification/*.mov
+/docs/verification/*.wav
+/docs/verification/*.gif
+/resources/store/banner-master-v1.png

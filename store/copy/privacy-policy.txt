@@ -1,0 +1,10 @@
+Quebble Privacy Policy
+Last updated: 16 November 2026
+
+Quebble runs offline. The game does not collect, upload, sell or share personal information. It has no advertising, analytics, accounts or app-owned network service. It does not use the microphone, location or health data.
+
+Best scores, the selected difficulty and sound preferences are saved locally on the watch. They are not sent to the developer. The game uses the display backlight, speaker and vibration motor for gameplay feedback. Music and sound effects are bundled in the app; they are not downloaded during play.
+
+The Pebble operating system, companion app, account and app store are separate services. Their providers' privacy policies govern those services. Visiting a hosted copy of this policy may also be subject to that website host's privacy practices.
+
+For questions, use the developer contact shown in the Quebble Pebble Appstore listing.

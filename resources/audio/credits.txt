@@ -1,0 +1,23 @@
+Quebble audio credits
+
+Music: Title Screen, Juhani Junkala / SubspaceAudio
+Source collection: Retro Game Music Pack / 5 Chiptunes (Action)
+https://opengameart.org/content/5-chiptunes-action
+Download: https://opengameart.org/sites/default/files/5%20Action%20Chiptunes%20By%20Juhani%20Junkala.zip
+Adaptation: complete 11.294-second loop, mono 8 kHz signed 16-bit PCM,
+420 Hz high-pass, presence EQ, normalization and 2 ms edge fades.
+
+Effects: Kenney / Kenney.nl, Digital SFX Set (2012)
+https://opengameart.org/content/63-digital-sound-effects-lasers-phasers-space-etc
+Download: https://opengameart.org/sites/default/files/Digital_SFX_Set.zip
+Adaptations: shortened, filtered, normalized, mono 8 kHz signed 16-bit PCM;
+soft edge fades and silent effect handles, for clean starts and decays;
+lowDown is also pitch-shifted for the game-over cue.
+UI/countdown: pepSound3; start: powerUp2; claim: powerUp7;
+hit/game over: lowDown; clear: highUp.
+
+Both source collections are released as Creative Commons CC0 1.0 Universal.
+https://creativecommons.org/publicdomain/zero/1.0/
+https://creativecommons.org/publicdomain/zero/1.0/legalcode.en
+CC0 imposes no attribution requirement; these credits acknowledge the creators.
+No endorsement by the creators is implied. Source pages checked 2026-11-15.
