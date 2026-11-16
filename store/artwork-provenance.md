@@ -14,6 +14,9 @@ Public style reference supplied by the developer:
 https://apps.repebble.com/brilliant-snake_06f4a8615e144b58ad65f60c
 
 The revised generated master extends the illustrated territory to both side edges.
+The large master remains in the source repository, not the upload kit. Use the
+root-level UPLOAD-BANNER-EMERY-720x320.png for submission; the inline chat preview
+is not the size-constrained upload export.
 The 720x320 upload version is a proportional full-bleed crop with a small vertical
 trim, without padding or distortion. The complete wordmark, line fan and player
 remain visible. The banner is a marketing illustration, not a screenshot or a promise

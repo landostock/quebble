@@ -64,6 +64,9 @@ def main():
         if path.is_file(): shutil.copy2(path,output/"copy"/path.name)
     for name in [*ART,"logo-transparent.png","logo-black.png"]:
         shutil.copy2(ROOT/"resources/store"/name,output/"images"/name)
+    upload_banner="UPLOAD-BANNER-EMERY-720x320.png"
+    shutil.copy2(ROOT/"resources/store/banner-720x320.png",output/upload_banner)
+    shutil.copy2(ROOT/"resources/store/banner-720x320.png",output.parent/upload_banner)
     shutil.copy2(ROOT/"resources/images/menu_icon.png",output/"images/menu-icon-25.png")
     for name in SCREENS:
         shutil.copy2(ROOT/"store/screenshots"/name,output/"screenshots"/name)
@@ -78,7 +81,8 @@ def main():
     shutil.copy2(ROOT/"store/legal/THIRD-PARTY-NOTICES.txt",output/"legal/THIRD-PARTY-NOTICES.txt")
     shutil.copy2(ROOT/"resources/audio/SOURCES.md",output/"legal/audio-sources.md")
     shutil.copy2(ROOT/"docs/store-readiness.md",output/"legal/store-readiness.md")
-    shutil.copy2(ROOT/"resources/store/banner-master.png",output/"source-art/banner-master.png")
+    old_master=output/"source-art/banner-master.png"
+    if old_master.exists(): old_master.unlink()
     shutil.copy2(ROOT/"store/artwork-provenance.md",output/"source-art/artwork-provenance.md")
     shutil.copy2(ROOT/"docs/verification/store-17.md",output/"qa/verification.md")
     manifest = {"name":"Quebble", "version":version, "uuid":metadata["uuid"],

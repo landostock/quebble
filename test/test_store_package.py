@@ -15,6 +15,11 @@ with zipfile.ZipFile(archive) as bundle:
     manifest = json.loads(bundle.read(prefix+"manifest.json"))
     assert manifest["published"] is False
     assert manifest["version"] == version
+    upload=prefix+"UPLOAD-BANNER-EMERY-720x320.png"
+    assert bundle.read(upload)==bundle.read(prefix+"images/banner-720x320.png")
+    with Image.open(io.BytesIO(bundle.read(upload))) as image:
+        assert image.size==(720,320)
+    assert prefix+"source-art/banner-master.png" not in bundle.namelist()
     screenshots = []
     gallery = []
     for entry in manifest["files"]:

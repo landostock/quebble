@@ -16,12 +16,15 @@ Appstore. Quellcode und Downloads sind separat auf GitHub verfuegbar.
 | Source Code URL | Inhalt von `copy/source-url.txt` |
 | Small Icon | `images/icon-80.png` |
 | Large Icon | `images/icon-144.png` |
-| Emery Banner | `images/banner-720x320.png` |
+| Emery Banner | `UPLOAD-BANNER-EMERY-720x320.png` im Hauptordner |
 | Emery Screenshots | Die fuenf Dateien in `screenshots/`, in Nummernreihenfolge |
 
 `images/icon-512.png` und die transparenten/schwarzen Logos sind zusaetzliche
 Grafiken fuer eigene Ankuendigungen. Das 25-Pixel-Launcher-Icon ist bereits
-in der PBW enthalten. Die groessere Banner-Quelldatei liegt unter `source-art/`.
+in der PBW enthalten. Die grosse Banner-Quelldatei ist nur im Quellcode-Repository,
+nicht mehr im Upload-Paket. Fuer das Banner ausschliesslich die Datei
+`UPLOAD-BANNER-EMERY-720x320.png` verwenden, nicht die Bildvorschau aus dem Chat.
+`images/banner-720x320.png` ist eine identische Kopie des richtigen Exports.
 Alle Store-Texte und die App sind auf Englisch.
 
 Unter `gallery/` liegen alle acht Motive: Titel, erste Guide-Seite, Einstellungen,
